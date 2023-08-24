@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+.bounding{
+    overflow: hidden;
+    width: fit-content;
+  
+}
+.boundingelem{
+    transform: translateY(100%);
+}
+#main{
+    width: 100%;
+    background-color: black;
+
+}
+#home{
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+
+}
+#heading{
+    margin-top: 54px;
+    padding: 0px;
+}
+#heading h1{
+   
+    margin-left: 30px;
+    opacity: 0.6;
+    /* font-family: "General sans Medium"; */
+    font-size: 10vw;
+    text-transform: uppercase;
+    
+    
+}
+#heading #secondh1{
+    margin-top: -40px;
+    margin-left: 200px;
+}
+.blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+    /* background-color: red; */
+}
+.blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 1px;
+    
+}
+#smallheading{
+    margin-top: 80px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+#smallheading h5{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+#homefooter{
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#homefooter a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#homefooter #iconset{
+    margin-top: 4px;
+    display: flex;
+    margin-right: 30px;
+}
+#homefooter .circle{
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: black;
+    background-color: #888;
+}
+#second{
+    width: 100%;
+    height: 140vh;
+    background-color: black;
+    padding-top: 150px;
+    padding-right: 10vw;
+}
+.element{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 3vw 3vw;
+    padding-right: 0px;
+    color: #fff;
+    
+}
+.element h1{
+    text-transform: uppercase;
+    font-size: 8vw;
+    opacity: .7;
+   
+}
+.elementlast{
+    border-bottom: 1px solid #888;
+}
+.element img{
+    /* display: none; */
+    opacity: 0;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    color: #fff;
+    padding: 10vw 6vw;
+    padding-left: 40vw;
+    width: 100%;
+    background-color: black;
+}
+#textabout{
+    width: 80%;
+   
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+#textabout a{
+    padding: 12px 15px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+#about img{
+    width: 200px;
+}
+
+#youtube{
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+}
+#youtube h5{
+    text-transform: uppercase;
+    opacity: .6;
+}
+#youtube h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1vw;
+   
+}
+#footerleft{
+   
+    display: flex;
+    gap: 20px;
+}
+#footerright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+#footer a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
